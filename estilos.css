@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+}
+body{
+
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.formulario{
+    width: 500px;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 40px;
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
+    position: relative;
+    
+}
+i{
+    position: relative;
+    margin: 10px;
+    left: -13px;
+    top: auto;
+
+    
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0;
+    color: rgba(0,0,0,0.9);
+}
+h1 span{
+    color: #ee0028;
+}
+.input, .label, .submit {
+    display: block;
+    width: 100%;
+    font-size: 1.3em;
+}
+.input{
+    padding: 20px;
+    background: rgba(0,0,0,0.1);;
+    border: 1px solid rgba(0,0,0,0.2);
+    margin-bottom: 40px;
+}
+.inptut:focus {
+    outline: 1px solid rgba(0, 0, 0, 0.7);
+}
+.input:focus + .label{
+    margin-top: -130px;
+}
+.label{
+    padding-left: 15px;
+    position: absolute ;
+    margin-top: -85px;
+    z-index: -20;
+    color: rgba(0,0,0,0.5);
+    transition: all 0.2s;
+}
+
+.fijar{
+    margin-top: -135px;
+}
+/*botones */
+.submit, .reset {
+	width: 40%;
+	border-bottom: none;
+	background-color: #7c7a7a;
+	color: rgb(0, 0, 0);
+	position: relative;	
+	
+}
+
+.reset {
+    position: relative;
+    height: 39px;
+    left: 200px;
+    top: -55px;
+	background-color: #7c7a7a;
+}
+
+.submit:hover {
+	background-color: #4C9ED9;
+}
+
+.reset:hover{
+	background-color: #4C9ED9;
+}
+.input label{
+	font-size: 16px;
+    color: #001F3F;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.submit, .reset{
+	background-color: #fff9f9;
+	padding: .3rem;
+	margin: .5rem 0;
+	border: none;
+	border-bottom: solid #84d2e6 .2rem;
+	transition: all .5s;
+}
+.fa-calendar-alt{
+position: relative;
+top: -15px;
+left: 3px;
+font-size: 29px;
+}
+.fa-envelope{
+    position: relative;
+    top: -15px;
+    left: 3px;
+    font-size: 29px;
+}
+.fa-phone-square-alt{
+    position: relative;
+    top: -15px;
+    left: 3px;
+    font-size: 29px;
+}
+.fa-map-marked-alt{
+    position: relative;
+    top: -15px;
+    left: 3px;
+    font-size: 29px;
+}
+.fa-address-card{
+    position: relative;
+    top: -15px;
+    left: 3px;
+    font-size: 29px;
+}
+.fa-user{
+    position: relative;
+    top: -15px;
+    left: 3px;
+    font-size: 29px;
+}
